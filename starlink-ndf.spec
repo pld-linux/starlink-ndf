@@ -2,7 +2,7 @@ Summary:	NDF - NDF (N-dimensional Data Format) data structure routines
 Summary(pl):	NDF - funkcje do struktur danych NDF (N-wymiarowego formatu danych)
 Name:		starlink-ndf
 Version:	1.5_8.218
-Release:	1
+Release:	2
 License:	non-commercial use and distribution (see NDF_CONDITIONS)
 Group:		Libraries
 Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/ndf/ndf.tar.Z
@@ -44,7 +44,7 @@ typu.
 Summary:	Header files for NDF libraries
 Summary(pl):	Pliki nag³ówkowe bibliotek NDF
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-ary-devel
 Requires:	starlink-ast-devel
 Requires:	starlink-par-devel
@@ -59,7 +59,7 @@ Pliki nag³ówkowe bibliotek NDF.
 Summary:	Static Starlink NDF libraries
 Summary(pl):	Statyczne biblioteki Starlink NDF
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink NDF libraries.
