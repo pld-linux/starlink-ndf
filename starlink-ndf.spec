@@ -5,7 +5,8 @@ Version:	1.5_8.218
 Release:	1
 License:	non-commercial use and distribution (see NDF_CONDITIONS)
 Group:		Libraries
-Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/ndf/ndf.tar.Z
+#Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/ndf/ndf.tar.Z
+Source0:	ndf.tar.Z
 # Source0-md5:	33103b5672be45d20a33727b055ef139
 URL:		http://www.starlink.rl.ac.uk/static_www/soft_further_NDF.html
 BuildRequires:	gcc-g77
