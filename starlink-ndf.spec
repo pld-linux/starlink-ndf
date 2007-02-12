@@ -1,5 +1,5 @@
 Summary:	NDF - NDF (N-dimensional Data Format) data structure routines
-Summary(pl):	NDF - funkcje do struktur danych NDF (N-wymiarowego formatu danych)
+Summary(pl.UTF-8):   NDF - funkcje do struktur danych NDF (N-wymiarowego formatu danych)
 Name:		starlink-ndf
 Version:	1.5_8.218
 Release:	2
@@ -29,20 +29,20 @@ comprehensive set of standard ancillary items to describe the data, it
 can also be extended indefinitely to handle additional user-defined
 information of any type.
 
-%description -l pl
+%description -l pl.UTF-8
 NDF (N-Dimensional Data Format - n-wymiarowy format danych) to format
-s≥uø±cy do przechowywania danych w postaci n-wymiarowych tablic liczb.
-Jest zwykle uøywany do przechowywania widm, obrazÛw i podobnych
-zbiorÛw danych o wiÍkszej liczbie wymiarÛw. Format NDF jest oparty na
+s≈Çu≈ºƒÖcy do przechowywania danych w postaci n-wymiarowych tablic liczb.
+Jest zwykle u≈ºywany do przechowywania widm, obraz√≥w i podobnych
+zbior√≥w danych o wiƒôkszej liczbie wymiar√≥w. Format NDF jest oparty na
 hierarchicznym systemie danych HDS i jest rozszerzalny; nie tylko
-dostarcza kompletnego zbioru standardowych elementÛw pomocniczych do
-opisu danych, ale moøe byÊ takøe nieskoÒczenie rozszerzany do obs≥ugi
-dodatkowych zdefiniowanych przez uøytkownika informacji dowolnego
+dostarcza kompletnego zbioru standardowych element√≥w pomocniczych do
+opisu danych, ale mo≈ºe byƒá tak≈ºe niesko≈Ñczenie rozszerzany do obs≈Çugi
+dodatkowych zdefiniowanych przez u≈ºytkownika informacji dowolnego
 typu.
 
 %package devel
 Summary:	Header files for NDF libraries
-Summary(pl):	Pliki nag≥Ûwkowe bibliotek NDF
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe bibliotek NDF
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-ary-devel
@@ -52,19 +52,19 @@ Requires:	starlink-par-devel
 %description devel
 Header files for NDF libraries.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe bibliotek NDF.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe bibliotek NDF.
 
 %package static
 Summary:	Static Starlink NDF libraries
-Summary(pl):	Statyczne biblioteki Starlink NDF
+Summary(pl.UTF-8):   Statyczne biblioteki Starlink NDF
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink NDF libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczne biblioteki Starlink NDF.
 
 %prep
