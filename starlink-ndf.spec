@@ -1,5 +1,5 @@
 Summary:	NDF - NDF (N-dimensional Data Format) data structure routines
-Summary(pl.UTF-8):   NDF - funkcje do struktur danych NDF (N-wymiarowego formatu danych)
+Summary(pl.UTF-8):	NDF - funkcje do struktur danych NDF (N-wymiarowego formatu danych)
 Name:		starlink-ndf
 Version:	1.5_8.218
 Release:	2
@@ -42,7 +42,7 @@ typu.
 
 %package devel
 Summary:	Header files for NDF libraries
-Summary(pl.UTF-8):   Pliki nagłówkowe bibliotek NDF
+Summary(pl.UTF-8):	Pliki nagłówkowe bibliotek NDF
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-ary-devel
@@ -57,7 +57,7 @@ Pliki nagłówkowe bibliotek NDF.
 
 %package static
 Summary:	Static Starlink NDF libraries
-Summary(pl.UTF-8):   Statyczne biblioteki Starlink NDF
+Summary(pl.UTF-8):	Statyczne biblioteki Starlink NDF
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
